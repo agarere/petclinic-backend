@@ -13,7 +13,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/rest")
+@RequestMapping("/api")
 public class PetClinicRestControllerImpl implements PetClinicRestController {
 
     @Autowired
