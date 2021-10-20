@@ -1,6 +1,6 @@
-package com.javaegitim.petclinic.web;
+package com.modules.petclinic.web;
 
-import com.javaegitim.petclinic.model.Owner;
+import com.modules.petclinic.model.Owner;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

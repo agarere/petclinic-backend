@@ -1,4 +1,4 @@
-package com.javaegitim.petclinic.exception;
+package com.modules.petclinic.exception;
 
 public class OwnerNotFoundException extends RuntimeException {
 

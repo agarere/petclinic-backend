@@ -1,13 +1,13 @@
-package com.javaegitim.petclinic.service;
+package com.modules.petclinic.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.javaegitim.petclinic.dao.OwnerRepository;
-import com.javaegitim.petclinic.exception.OwnerNotFoundException;
-import com.javaegitim.petclinic.model.Owner;
+import com.modules.petclinic.dao.OwnerRepository;
+import com.modules.petclinic.exception.OwnerNotFoundException;
+import com.modules.petclinic.model.Owner;
 
 @Service //Not: Çalışma zamanında bu classdan bir tane bean yaratır.
 public class PetClinicServiceImpl implements PetClinicService {

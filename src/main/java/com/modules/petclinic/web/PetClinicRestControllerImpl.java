@@ -1,9 +1,8 @@
-package com.javaegitim.petclinic.web;
+package com.modules.petclinic.web;
 
-import com.javaegitim.petclinic.exception.OwnerNotFoundException;
-import com.javaegitim.petclinic.model.Owner;
-import com.javaegitim.petclinic.service.PetClinicService;
-import org.apache.coyote.Response;
+import com.modules.petclinic.exception.OwnerNotFoundException;
+import com.modules.petclinic.model.Owner;
+import com.modules.petclinic.service.PetClinicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

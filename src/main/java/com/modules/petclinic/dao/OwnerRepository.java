@@ -1,8 +1,8 @@
-package com.javaegitim.petclinic.dao;
+package com.modules.petclinic.dao;
 
 import java.util.List;
 
-import com.javaegitim.petclinic.model.Owner;
+import com.modules.petclinic.model.Owner;
 
 public interface OwnerRepository {
 	

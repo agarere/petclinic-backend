@@ -1,9 +1,9 @@
-package com.javaegitim.petclinic.service;
+package com.modules.petclinic.service;
 
 import java.util.List;
 
-import com.javaegitim.petclinic.exception.OwnerNotFoundException;
-import com.javaegitim.petclinic.model.Owner;
+import com.modules.petclinic.exception.OwnerNotFoundException;
+import com.modules.petclinic.model.Owner;
 
 public interface PetClinicService {
 	
