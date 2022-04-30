@@ -1,8 +1,8 @@
-package com.modules.petclinic.dao;
+package com.petclinic.dao;
 
 import java.util.List;
 
-import com.modules.petclinic.model.Owner;
+import com.petclinic.model.Owner;
 
 public interface OwnerRepository {
 	

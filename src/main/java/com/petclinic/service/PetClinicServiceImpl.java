@@ -1,13 +1,13 @@
-package com.modules.petclinic.service;
+package com.petclinic.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.modules.petclinic.dao.OwnerRepository;
-import com.modules.petclinic.exception.OwnerNotFoundException;
-import com.modules.petclinic.model.Owner;
+import com.petclinic.dao.OwnerRepository;
+import com.petclinic.exception.OwnerNotFoundException;
+import com.petclinic.model.Owner;
 
 @Service //Not: Çalışma zamanında bu classdan bir tane bean yaratır.
 public class PetClinicServiceImpl implements PetClinicService {
