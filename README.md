@@ -1,2 +1,2 @@
 # petclinic
-Spring Boot MVC 
+Spring Boot
