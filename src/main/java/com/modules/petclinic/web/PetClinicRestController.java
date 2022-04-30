@@ -2,29 +2,31 @@ package com.modules.petclinic.web;
 
 import com.modules.petclinic.model.Owner;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
 import java.util.List;
 
+@Validated
+@RequestMapping("/api/v1")
 public interface PetClinicRestController {
 
-    @RequestMapping(method = RequestMethod.DELETE, value = "/owner/{id}")
+    @DeleteMapping("/owner/{id}")
     ResponseEntity<?> deleteOwner(@PathVariable("id") Long id);
 
-    @RequestMapping(method = RequestMethod.PUT, value="/owner/{id}")
+    @PutMapping("/owner/{id}")
     ResponseEntity<?> updateOwner(@PathVariable("id") Long id, @RequestBody Owner ownerRequest);
 
-    @RequestMapping(method = RequestMethod.POST, value="/owner")
+    @PostMapping("/owner")
     ResponseEntity<URI> createOwner(@RequestBody Owner owner);
 
-    @RequestMapping(method = RequestMethod.GET, value = "/owners")
+    @GetMapping("/owners")
     ResponseEntity<List<Owner>> getOwners();
 
-    @RequestMapping(method = RequestMethod.GET, value = "/owner")
+    @GetMapping("/owner")
     ResponseEntity<List<Owner>> getOwners(@RequestParam("ln") String lastName);
 
-    @RequestMapping(method = RequestMethod.GET, value = "/owner/{id}")
+    @GetMapping("/owner/{id}")
     ResponseEntity<Owner> getOwner(@PathVariable("id") Long id);
-
 }
