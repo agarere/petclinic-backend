@@ -1,8 +1,8 @@
-package com.modules.petclinic.dao;
+package com.petclinic.dao;
 
 import java.util.List;
 
-import com.modules.petclinic.model.Pet;
+import com.petclinic.model.Pet;
 
 public interface PetRepository {
 

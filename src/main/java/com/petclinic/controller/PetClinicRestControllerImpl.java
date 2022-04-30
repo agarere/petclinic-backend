@@ -1,8 +1,8 @@
-package com.modules.petclinic.web;
+package com.petclinic.controller;
 
-import com.modules.petclinic.exception.OwnerNotFoundException;
-import com.modules.petclinic.model.Owner;
-import com.modules.petclinic.service.PetClinicService;
+import com.petclinic.exception.OwnerNotFoundException;
+import com.petclinic.model.Owner;
+import com.petclinic.service.PetClinicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

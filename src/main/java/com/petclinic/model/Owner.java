@@ -1,4 +1,4 @@
-package com.modules.petclinic.model;
+package com.petclinic.model;
 
 import java.util.HashSet;
 import java.util.Set;

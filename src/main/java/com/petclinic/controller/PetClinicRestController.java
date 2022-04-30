@@ -1,6 +1,6 @@
-package com.modules.petclinic.web;
+package com.petclinic.controller;
 
-import com.modules.petclinic.model.Owner;
+import com.petclinic.model.Owner;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

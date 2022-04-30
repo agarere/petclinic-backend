@@ -1,4 +1,4 @@
-package com.modules.petclinic.exception;
+package com.petclinic.exception;
 
 public class OwnerNotFoundException extends RuntimeException {
 

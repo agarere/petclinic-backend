@@ -1,4 +1,4 @@
-package com.modules.petclinic.dao.mem;
+package com.petclinic.dao.mem;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Repository;
 
-import com.modules.petclinic.dao.OwnerRepository;
-import com.modules.petclinic.model.Owner;
+import com.petclinic.dao.OwnerRepository;
+import com.petclinic.model.Owner;
 
 @Repository //Not: Çalışma zamanında spring boot bu classdan bir bean oluşturur.
 public class OwnerRepositoryInMemoryImpl implements OwnerRepository {
